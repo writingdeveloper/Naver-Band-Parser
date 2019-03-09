@@ -7,7 +7,7 @@ const clientSecret='zwJ0mEyKJNjWYDn8pxQrwmMjpxegzea_';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  request(`https://auth.band.us/oauth2/authorize?response_type=code&client_id=${clientId}&redirect_uri=http://127.0.0.1:3000`, function(error, response, body){
+  request(`https://auth.band.us/oauth2/authorize?response_type=code&client_id=${clientId}&redirect_uri=https://bander-statistics.herokuapp.com/`, function(error, response, body){
   if(error){
     console.log(error);
   }
