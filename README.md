@@ -12,6 +12,11 @@ Naver Band Parser with Google Puppeteer
 ## Installing
 The program will also be uploaded to the NPM in the future, and currently it will only write the installation method through the ZIP file.
 
+1. Open Google Chrome
+2. Access [chrome://version/](chrome://version/) to get Google Chrome user data.
+3. Copy chromePath and userDatadir information to initData object.
+4. Set bandNum to parse
+5. fix db.txt to type first post number
 
 This program requires pre-installation of the program below.  
 The tested version is shown below and is developed based on the LTS version of Node.js.
